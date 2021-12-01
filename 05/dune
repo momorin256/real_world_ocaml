@@ -1,0 +1,3 @@
+(executable
+ (name service_info)
+ (libraries base core re))
