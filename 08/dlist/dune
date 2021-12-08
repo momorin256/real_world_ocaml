@@ -1,0 +1,3 @@
+(executable
+ (name dlist)
+ (libraries base stdio))
