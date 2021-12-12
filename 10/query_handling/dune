@@ -1,0 +1,5 @@
+(executable
+ (name query_handler)
+ (libraries base core)
+ (preprocess
+  (pps ppx_sexp_conv)))
