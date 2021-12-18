@@ -1,0 +1,5 @@
+(executable
+ (name search)
+ (libraries core async uri yojson cohttp-async textwrap)
+ (preprocess
+  (pps ppx_jane)))
